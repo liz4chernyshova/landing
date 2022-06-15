@@ -1,0 +1,20 @@
+.grid__item {
+    background-color: #8AD191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__item::after {
+    counter-increment: number 1;
+    content: counter(number);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 62px;
+    color: #ffffff;
+}
+
+.block {
+    grid-area: block;
+}

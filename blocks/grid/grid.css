@@ -1,0 +1,13 @@
+.grid {
+    background-color: #B3F95A;
+    margin: 0 15px 15px;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 198px);
+    grid-template-columns: 32% 52% 13.5%;
+    grid-template-areas:
+    "1 2 3"
+    "block block 5";
+    gap: 15px;
+    counter-reset: number;
+}

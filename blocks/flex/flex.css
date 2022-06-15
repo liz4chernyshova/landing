@@ -1,0 +1,10 @@
+.flex{
+    position: relative;
+    height: 259px;
+    background-color: #88B5BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 15px 100px;
+    padding-left: 30px;
+}
